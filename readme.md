@@ -54,7 +54,7 @@ With certain constraints imposed on the coefficients, the y<sub>t</sub> series s
 
 A `GARCH (generalized autoregressive conditionally heteroscedastic)` model uses values of the past squared observations and past variances to model the variance at time . As an example, a GARCH(1,1) is
 
-&sigma;<sup>2</sup><sub>t</sub> = &alpha;<sub>0</sub> + &alpha;<sub>1</sub>y<sup>2</sup><sub>t-1</sub> + &beta;<sub>1</sub>&alpha;<sup>2</sup><sub>t-1</sub>
+**_&sigma;<sup>2</sup><sub>t</sub> = &alpha;<sub>0</sub> + &alpha;<sub>1</sub>y<sup>2</sup><sub>t-1</sub> + &beta;<sub>1</sub>&alpha;<sup>2</sup><sub>t-1</sub>_**
 
 In the GARCH notation, the first subscript refers to the order of the y<sup>2</sup> terms on the right side, and the second subscript refers to the order of the &sigma;<sup>2</sup> terms.
 
