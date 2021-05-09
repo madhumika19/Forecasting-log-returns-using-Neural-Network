@@ -23,7 +23,7 @@ auto.arima(DIS.ts_train) #fetching parameters for arima model
 
 
 #fitting the arima model for above obtained parameters
-DIS.ARIMA <- Arima(DIS.ts, order = c(2,0,0))
+DIS.ARIMA <- Arima(DIS.ts_train, order = c(2,0,0))
 summary(DIS.ARIMA)
 accuracy(forecast(DIS.ARIMA,h=40), DIS.ts_test) 
 
